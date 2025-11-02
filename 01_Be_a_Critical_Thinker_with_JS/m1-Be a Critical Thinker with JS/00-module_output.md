@@ -1,0 +1,1 @@
+**You’ll learn how to deconstruct vague problems, think in data flow, and understand why data structures and algorithms form the backbone of every great developer.**
