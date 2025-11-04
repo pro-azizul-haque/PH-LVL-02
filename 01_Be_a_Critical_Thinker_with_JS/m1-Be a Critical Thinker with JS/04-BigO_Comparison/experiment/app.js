@@ -7,7 +7,7 @@ function measureTime(fn, label) {
 }
 
 // Input size
-const n = 10000;  // চাইলে বাড়াতে পারো (যেমন 100000 বা 1000000)
+const n = 10000; // চাইলে বাড়াতে পারো (যেমন 100000 বা 1000000)
 
 // O(1): Constant time
 function constant() {
@@ -43,9 +43,13 @@ function quadratic() {
 function exponential() {
   function recurse(k) {
     if (k === 0) return 1;
-    return recurse(k - 1) + recurse(k - 1);
+    const val1 = recurse(k - 1)  
+    const val2 =  recurse(k - 1) 
+    return val1 + val2;
   }
-  recurse(20); // সতর্ক: n বেশি দিলে ব্রাউজার হ্যাং করবে!
+
+const returnVal = recurse(20); // সতর্ক: n বেশি দিলে ব্রাউজার হ্যাং করবে!
+  console.log(returnVal);
 }
 
 // 🧠 Measure all
