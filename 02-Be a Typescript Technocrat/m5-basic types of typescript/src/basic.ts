@@ -8,7 +8,7 @@
 // console.log(num);
  
 
-// non-primitive data types/structure: Array, Object
+//** */ non-primitive data types/structure: Array, Object ******
 
 // const users: string[] = ["a","b","c"]
 // console.log(users);
@@ -19,17 +19,20 @@
 // // users.push(true)
 // console.log(users);
 
-
+// object data type setting
 const user:{
     readonly name:string,
     age :number,
     isStudent:boolean,
-    profession:string
+    profession:string,
+    gender:"male" // literal type,
+    employed?:boolean // optional
 } = {
     name:"azizul",
     age:18,
     isStudent:true,
-    profession:"developer"
+    profession:"developer",
+  gender:"male"
 }
 
 // user.age = "20"
