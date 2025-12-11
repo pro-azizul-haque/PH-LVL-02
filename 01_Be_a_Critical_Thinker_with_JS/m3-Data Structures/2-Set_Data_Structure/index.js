@@ -25,5 +25,4 @@
 const monsurFriends = ["azizul","meizan","gaffar"]
 const myFriends = ["sumon","meizan","gaffar","emran"]
 const smFriends = new Set([...monsurFriends,...myFriends])
-
 console.log(smFriends);

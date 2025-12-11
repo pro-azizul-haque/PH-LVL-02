@@ -111,9 +111,8 @@ When decomposing, always ensure:
 **Modules:**
 
 1. Input handler
-2. Parser
-3. Evaluator
-4. UI renderer
+2. Evaluator
+3. UI renderer
 
 **Subtasks:**
 

@@ -1,3 +1,7 @@
+0. https://www.youtube.com/watch?v=uBE9zLU--DA
+1. https://roadmap.sh/datastructures-and-algorithms
+2. https://algorithm-visualizer.org/
+3. https://roadmap.sh/ai/course/mastering-algorithms-and-data-structures-1762857421753
 দারুন ভাই 😎 — Algorithm শেখা মানে আসলে **problem-solving skill** develop করা।
 চলো, আমি তোমাকে একদম সহজভাবে একটা **step-by-step roadmap** দেই 👇
 
