@@ -26,7 +26,7 @@ Eta JavaScript-er superset, meaning **every JS code valid in TS**, but with extr
 
 ---
 
-# ⭐ 2) **Everything = Shape (Even functions!)**
+# ⭐ 2) **Everything = Shape**
 
 Most people think “object”-এর shape define করা যায়।
 But reality:
