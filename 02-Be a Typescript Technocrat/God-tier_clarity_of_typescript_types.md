@@ -127,6 +127,14 @@ type ID = string | number;
 
 Union = multiple possible shapes.
 
+# ⭐ *) **Enum**
+
+```ts
+enum Role = {Admin,Viewer};
+```
+ 1. Enum মানে একটা named set of fixed values
+ 2. Enum runtime-এ actual JS object হয়ে যায়।
+ 3. Enum = value + type (দুটোই একসাথে)
 ---
 
 # ⭐ 8) **Function Type = Behavior Shape**
