@@ -1,4 +1,4 @@
- 5  // keyof মানে holo একটা object type এর সব keys এর union।
+5; // keyof মানে holo একটা object type এর সব keys এর union।
 /**
  * Summary (একদম short re-memorizable)
 keyof → object-এর সব key-এর union
@@ -36,7 +36,8 @@ type User = {
 // function getProps(obj: User, key: keyof User) { // problem is its not generalized
 //   return obj[key];
 // }
-function getProps<T>(obj: T, key: keyof T) { // problem is its not generalized
+function getProps<T>(obj: T, key: keyof T) {
+  // problem is its not generalized
   return obj[key];
 }
 
@@ -56,4 +57,23 @@ const product1 = {
   },
 };
 
-console.log(getProps(product1,"specs"));
+console.log(getProps(product1, "specs"));
+
+type Producty = {
+  name: string;
+  brand: string;
+  price: number;
+};
+
+// type KeysOfProducty = keyof Producty;
+const producty: Producty = {
+  name: "laptop",
+  brand: "enovo",
+  price: 10000,
+};
+function getValueOfProducty(key: keyof Producty) {
+  return producty[key];
+}
+
+console.log(getValueOfProducty("brand"));
+console.log(getValueOfProducty("price"));
