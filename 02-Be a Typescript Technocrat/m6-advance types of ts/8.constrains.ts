@@ -1,7 +1,7 @@
 /*Super-Simple Definition (memorizable)
 
-Constraint = Generic type-এর উপর boundary / condition
- যাতে T must follow a specific shape, keys, primitive, or class.
+Constraint = type-এর উপর boundary / condition
+ যাতে Type must follow a specific shape, keys, primitive, or class.
  */
 type Student = {
   name: string;
