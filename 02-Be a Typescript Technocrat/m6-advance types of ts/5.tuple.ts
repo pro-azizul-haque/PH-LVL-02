@@ -1,6 +1,6 @@
-let user:["x","y","z","a"]
-
-user = ["x","y","z","a"]
+let user:["x","y"]
+// literal multiple value in array mean hard code array but its data type
+user = ["x","y"]
 
 function tuples(i:["a","b"]):string{
     return i.toLocaleString()
